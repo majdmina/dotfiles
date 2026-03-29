@@ -70,3 +70,4 @@ bindkey "^[[B" history-beginning-search-forward
 export PATH="$HOME/.cargo/bin:$PATH"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+setopt interactivecomments
