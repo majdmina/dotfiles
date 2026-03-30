@@ -74,7 +74,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 Placement=UnderMouse
 
 [Xwayland]
-Scale=1.25
+Scale=1.1
 
 [org.kde.kdecoration2]
 BorderSize=None
