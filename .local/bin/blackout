@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+import tkinter as tk
+
+def wake_up(event):
+    root.destroy()
+
+root = tk.Tk()
+# Cover the entire screen
+root.attributes('-fullscreen', True)
+# Hex #000000 turns OLED pixels physically OFF
+root.configure(bg='black')
+# Completely hide the mouse cursor
+root.config(cursor='none')
+# Only wake up if you press Escape
+root.bind('<Escape>', wake_up)
+
+root.mainloop()
