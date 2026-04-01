@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=⭐ Project
+Comment=Open Project Folder
+Exec=dolphin /home/minaco/Assignments/WESE2026/Project/
+Icon=folder-assignments
+Terminal=false
+Type=Application
+Categories=FileManager;

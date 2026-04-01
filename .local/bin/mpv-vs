@@ -1,0 +1,11 @@
+#!/bin/bash
+# High-Performance MPV VapourSynth Wrapper
+# Optimized for Tuxedo/Arch NVIDIA Prime Offload
+
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia mpv \
+  --vf="vapoursynth=~/.config/mpv/mvtools.vpy:buffered-frames=4:concurrent-frames=16" \
+  --hwdec=no \
+  --vo=gpu \
+  --vd-lavc-threads=8 \
+  --ao=pulse \
+  "$@"

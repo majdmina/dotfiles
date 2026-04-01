@@ -1,0 +1,14 @@
+configuration {
+    /* This line is the engine block. 'filebrowser' must be here to work. */
+    modi: "drun,run,window,filebrowser";
+    show-icons: true;
+    font: "JetBrainsMono Nerd Font 12";
+
+    /* The clean labels you wanted */
+    display-drun:   "🔍 Search:";
+    display-run:    " Command:";
+    display-window: "🪟 Windows:";
+    display-filebrowser: "📁 Folders:";
+}
+
+@theme "~/.config/rofi/catppuccin-lavrent-mocha.rasi"
