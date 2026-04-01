@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "f12462ef933ed6b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "877d83808056e957",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70a745397572a52b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58a94e0c2f7933ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "117f2ae515510924",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48e1ccf00c2725c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "23696a4a99e75f95",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "214489578dd57e08",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39ff0306e8a18254",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4dff8945acc576b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e09ad796bb08d48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Minaco/Linux learning/ZSH setup/distrobox.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for distrobox"
+            }
+          },
+          {
+            "id": "d8e9dbab21b45859",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Minaco/Linux learning/ZSH setup/distrobox.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from distrobox"
+            }
+          },
+          {
+            "id": "2f6777358ced1b54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd0fcc80332e8229",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "edfbca0e0545ff9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Minaco/Linux learning/ZSH setup/distrobox.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of distrobox"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "70a745397572a52b",
+  "lastOpenFiles": [
+    "Minaco/Linux learning/git configs.md",
+    "Minaco/Linux learning/Untitled.md",
+    "Minaco/Linux learning/to retrieve login with wayland .md",
+    "Minaco/Project/mid revsion.md",
+    "Minaco/Linux learning/ZSH setup/distrobox.md",
+    "Minaco/Project",
+    "Minaco/Linux learning/obsidian sync setup.md",
+    "Minaco/Linux learning/To list in linux/To list in linux.md",
+    "Minaco/Linux learning/Homebrew manual .md",
+    "Minaco/Linux learning/Linux learning.md",
+    "Minaco/Linux learning/linux status cmds.md",
+    "Minaco/Linux learning/Android studio .md",
+    "Minaco/Linux learning/waydroid config.md",
+    "Minaco/Linux learning/To_do list in linux .md",
+    "Minaco/Linux learning/KVM.md",
+    "Minaco/Linux learning/sceen offf time.md"
+  ]
+}
