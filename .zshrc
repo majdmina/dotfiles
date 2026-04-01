@@ -59,7 +59,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
 
 # AI Frame Generation Aliases (Homebrew MPV)
 # Usage: play60 /path/to/movie.mkv
-alias play60='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia $(brew --prefix)/bin/mpv "--vf=vapoursynth=~/.config/mpv/rife.vpy:buffered-frames=2:concurrent-frames=2" --hwdec=nvdec --video-sync=display-resample'
+alias play60='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia $(brew --prefix)/bin/mpv "--vf=vapoursynth=~/.config/mpv/mvtools.vpy" --hwdec=nvdec --video-sync=display-resample'
 # Obsidian Auto-Sync Alias
 alias gsync='git add . && git commit -m "Vault Update: $(date +%Y-%m-%d_%H:%M)" && git push origin main'
 
@@ -71,3 +71,24 @@ export PATH="$HOME/.cargo/bin:$PATH"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 setopt interactivecomments
+export LD_LIBRARY_PATH=/usr/lib/nvidia-bridge:$LD_LIBRARY_PATH
+alias mpv-vs='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia mpv --vf="vapoursynth=~/.config/mpv/mvtools.vpy:buffered-frames=4:concurrent-frames=16" --hwdec=no --vo=gpu --vd-lavc-threads=8 --ao=pulse'
+alias mpv-vs='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia mpv --vf="vapoursynth=~/.config/mpv/mvtools.vpy:buffered-frames=4:concurrent-frames=16" --hwdec=no --vo=gpu --vd-lavc-threads=8 --ao=pulse'
+play60f() {
+  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia mpv \
+    --vf='vapoursynth=~/.config/mpv/mvtools.vpy:buffered-frames=4:concurrent-frames=16' \
+    --hwdec=no \
+    --vo=gpu \
+    --vd-lavc-threads=8 \
+    --ao=pulse \
+    "$@"
+}
+play60f() {
+  __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia mpv \
+    --vf='vapoursynth=~/.config/mpv/mvtools.vpy:buffered-frames=4:concurrent-frames=16' \
+    --hwdec=no \
+    --vo=gpu \
+    --vd-lavc-threads=8 \
+    --ao=pulse \
+    "$@"
+}
